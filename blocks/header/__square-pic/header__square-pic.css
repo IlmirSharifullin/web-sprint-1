@@ -1,0 +1,19 @@
+@keyframes square-rotation {
+  from {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(330deg);
+  }
+}
+
+.header__square-pic {
+  position: absolute;
+  height: 568px;
+  width: 568px;
+  top: 64px;
+  right: 0;
+  background: #2f80ed;
+  z-index: 1;
+  animation: square-rotation 20s infinite linear;
+}
