@@ -1,0 +1,8 @@
+@keyframes rotation {
+  from {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(330deg);
+  }
+}
